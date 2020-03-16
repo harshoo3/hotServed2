@@ -1,0 +1,100 @@
+body {
+    font-family: 'Caladea', serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 22.83%;
+    position: fixed;
+    top: 180px;
+    left: 0;
+    background-color: rgb(250, 237, 212);
+    overflow-x: hidden;
+    padding-top: 90px;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 160px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #432616;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #c26733;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.res {
+    color: #432616;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 140px;
+    background-color: #432616;
+}
+
+.res-name {
+    margin-left: 375px;
+    font-size: 45px;
+    margin-top: 5px;
+    color: rgb(250, 237, 212);
+}
+
+.res-photo {
+    margin-left: 130px;
+    width: 200px;
+    height: 140px;
+    float: left;
+}
+
+.rating {
+    margin-left: 50px;
+    top: 300px;
+    color: rgb(250, 237, 212);
+    font-size: 25px;
+}
+
+.description {
+    margin-left: 1050px;
+    color: rgb(250, 237, 212);
+    float: right;
+    margin-top: -140px;
+    font-size: 19px;
+}
+
+.search-bar {
+    margin-top: 100px;
+    width: 500px;
+    height: 30px;
+    font-size: 17px;
+    margin-left: 50px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: white;
+    padding-left: 10px;
+}
+
+.side-icons {
+    float: right;
+    margin-top: -39px;
+}
+
+#hr1 {
+    width: 77.17%;
+    float: right;
+    margin-top: 20px;
+    color: #432616;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/loginpage/loginBlock.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>
+        Login page
+    </title>
+    <script type="text/javascript">
+        function swap(ref) {
+            if (ref.getAttribute("data-tab") == "login") {
+                document.getElementById("form-body").classList.remove('active');
+                ref.classList.toggle("active");
+                document.getElementById("signup").classList.toggle("active");
+            } else {
+                document.getElementById("form-body").classList.add('active');
+                ref.classList.toggle("active");
+                document.getElementById("login").classList.toggle("active");
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <h1 id="hot"> hot </h1>
+    <h1 id="Served"> Served </h1>
+    <div class="form">
+        <div class="head">
+            <div onclick="swap(this)" data-tab="login" class="login-tab active" id="login">Login</div>
+            <div onclick="swap(this)" data-tab="signup" class="signup-tab" id="signup">Signup</div>
+        </div>
+        <div class="body" id="form-body">
+            <div class="login">
+                <form method="post" action="/login">
+                    <div class="form-row">
+                        <input type="text" placeholder="Email" name="username">
+                    </div>
+                    <div class="form-row">
+                        <input type="password" placeholder="Password" name="password">
+                    </div>
+                    <div class="rem-row">
+                        <input type="checkbox" id="rem">
+                        <label for="rem">Remember me</label>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Login">
+                    </div>
+                    <div class="row">
+                        <span>OR</span>
+                    </div>
+                    <div class="footer">
+                        <div class="social-form fb">
+                            <i class="fa fa-facebook"></i> Login with Facebook
+                        </div>
+                        <div class="social-form google">
+                            <i class="fa fa-google"></i> Login with Google
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="signup" style="overflow: scroll;">
+                <form method="post" action="/register">
+                    <div class="radio">
+                        <span style="font-size: 200%; color: wheat;"> Account type: </span><br>
+                        <input type="radio" name="type" value="customer"> <span style="font-size: 125%;color: wheat;"> Customer</span> &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="type" value="restaurant"> <span style="font-size: 125%;color: wheat;"> Restaurant</span>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" name="username" placeholder="Name"><br>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" name="email" placeholder="Email"><br>
+                    </div>
+                    <div class="form-row">
+                        <input type="password" name="password" placeholder="Password"><br>
+                    </div>
+                    <div class="form-row">
+                        <input type="password" placeholder="Confirm Password"><br>
+                    </div>
+                    <div class="form-row">
+                        <textarea rows="2" cols="40" style="font-size: 58;" name="address" placeholder="Address"></textarea><br>
+                    </div>
+                    <div class="rem-row">
+                        <input type="checkbox" id="agr">
+                        <label for="agr">Agree terms & conditions.</label><br>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Register">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
