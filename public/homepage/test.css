@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: #432616;
+    color:#fff;
+    height:10vh;
+    position:fixed;
+    top:0;
+    width:100%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.t{
+    float:right;
+    margin-top: 25px;
+}
+
+.a{
+    padding:5px 30px;
+    color:#fff;
+    text-decoration: none;
+    transition:0.5s ease;
+    font-size:17px;
+}
+
+a:hover{
+    background-color: #fff;
+    color:#000;
+}
+
+
+
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #171a29;
+    color:white;
+}
+
+body{
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/e/7e/glass-coffee-light-cafe-4k-ultra-hd-background-blur-bokeh-su.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:70%;
+    width:auto;
+    background-size: cover;
+}
+
+HTML CSS JSResult
+EDIT ON
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.ble{
+  background-color: #171a29;
+  color:#ffffff;
+  margin-top: 15%;
+}
+
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #171a29;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background: #ED2;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.flexbox {
+  background: linear-gradient(155deg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  margin: 0px;
+  margin-right: 85%;
+}
+
+ 
+.search > div {
+  display: inline-block;
+  position: relative;
+}
+
+.search > div:after {
+  content: "";
+  background: white;
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 24px;
+  right: 1px;
+  transform: rotate(135deg);
+  box-shadow: 1px 0;
+}
+
+.search > div > input {
+  color: white;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px white;
+  outline: none;
+  border-radius: 35px;
+  box-shadow: 0 1px;
+  transition: width 0.5s;
+}
+
+.search > div > input::placeholder {
+  color: #efefef;
+  opacity: 1;
+}
+
+
+.search > div > input::-ms-placeholder {
+  color: #efefef;
+}
+
+.search > div > input::-ms-input-placeholder {
+  color: #efefef;
+}
+
+.search > div > input:focus,
+.search > div > input:valid {
+  width: 250px;
+}
+
+.box{
+  margin-left: 15%;
+  margin-right:13%;
+  margin-top: 50%;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+a:link {
+  
+  text-decoration: none;
+}
+.box2{
+  margin-left: 15%;
+  margin-right:13%;
+  margin-top: 50%;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+.box3{
+  margin-left: 50%;
+  margin-right:13%;
+  margin-top: 50%;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+.logo img{
+  float:left;
+  width:67px;
+  height:auto;
+}

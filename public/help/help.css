@@ -1,0 +1,234 @@
+body {
+    font-family: 'Caladea', serif;
+    background-color: rgb(250, 237, 212);
+}
+
+.t {
+    float: right;
+    margin-top: 25px;
+}
+
+.logo img {
+    float: left;
+    width: 67px;
+    height: auto;
+}
+
+.main {
+    background-color: #432616;
+    color: #fff;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.a {
+    padding: 5px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease;
+    font-size: 17px;
+}
+
+a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.flexbox {
+    background: linear-gradient(155deg);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    margin: 0px;
+    margin-right: 85%;
+}
+
+.search>div {
+    display: inline-block;
+    position: relative;
+}
+
+.search>div:after {
+    content: "";
+    background: white;
+    width: 4px;
+    height: 20px;
+    position: absolute;
+    top: 24px;
+    right: 1px;
+    transform: rotate(135deg);
+    box-shadow: 1px 0;
+}
+
+.search>div>input {
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    border: solid 3px white;
+    outline: none;
+    border-radius: 35px;
+    box-shadow: 0 1px;
+    transition: width 0.5s;
+}
+
+.search>div>input::placeholder {
+    color: #efefef;
+    opacity: 1;
+}
+
+.search>div>input::-ms-placeholder {
+    color: #efefef;
+}
+
+.search>div>input::-ms-input-placeholder {
+    color: #efefef;
+}
+
+.search>div>input:focus,
+.search>div>input:valid {
+    width: 250px;
+}
+
+.help-icon {
+    position: sticky;
+    float: left;
+    font-size: 16px;
+    margin-top: 96px;
+    color: #432616;
+    margin-left: 100px;
+}
+
+.help {
+    position: sticky;
+    float: left;
+    margin-top: 86px;
+    color: #432616;
+    margin-left: 27px;
+    font-size: 66px;
+    margin-bottom: 15px;
+}
+
+.need-help {
+    position: sticky;
+    font-size: 30px;
+    color: #432616;
+    float: left;
+    margin-top: 116px;
+    margin-left: 40px;
+}
+
+.sub-div {
+    overflow: auto;
+    position: relative;
+    background-color: white;
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 500px;
+    width: 1300px;
+}
+
+.vl {
+    position: fixed;
+    margin-left: 360px;
+    border-left: 3px solid #432616;
+    height: 500px;
+}
+
+.help-list {
+    /* overflow: auto; */
+    position: fixed;
+    text-align: right;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+    color: #432616;
+    float: left;
+}
+
+#Terms,
+#FAQ,
+#Account-settings,
+#rate,
+#issue,
+#about-us {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+#Terms:hover,
+#FAQ:hover,
+#Account-settings:hover,
+#rate:hover,
+#issue:hover,
+#about-us:hover {
+    color: #c26733;
+}
+
+.help-content {
+    overflow: auto;
+    position: relative;
+    padding-left: 64px;
+    color: #432616;
+    width: 855px;
+    margin-left: 363px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hr-content {
+    width: 840px;
+    float: left;
+    margin-top: 10px;
+}
+
+#Terms-content,
+#FAQ-content,
+#Account-settings-content,
+#rate-content,
+#issue-content,
+#about-us-content {
+    display: none;
+}
+
+.q1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.span1 {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+}
+
+ ::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
