@@ -1,0 +1,272 @@
+  *{
+      margin:0;
+      padding:0;
+      box-sizing: border-box;
+  }
+
+  .main{
+      background-color: #432616;
+      color:#fff;
+      height:10vh;
+      position:fixed;
+      top:0;
+      width:100%;
+      border-radius: 0px 0px 15px 15px;
+  }
+
+  .t{
+      float:right;
+      margin-top: 25px;
+  }
+
+  .a{
+      padding:5px 30px;
+      color:#fff;
+      text-decoration: none;
+      transition:0.5s ease;
+      font-size:17px;
+  }
+  .logo2{
+    float:left;
+    margin-left: 66%;
+    margin-top:13px;
+  }
+
+  a:hover{
+      background-color: #fff;
+      color:#000;
+  }
+
+
+
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color: #171a29;
+    color:white;
+}
+
+body{
+    background-image: url("https://img5.goodfon.com/wallpaper/nbig/e/7e/glass-coffee-light-cafe-4k-ultra-hd-background-blur-bokeh-su.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height:70%;
+    width:auto;
+    background-size: cover;
+}
+
+HTML CSS JSResult
+EDIT ON
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #EEE;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.ble{
+  background-color: #171a29;
+  color:#ffffff;
+  margin-top: 15%;
+}
+
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+.gallery {
+  background: #171a29;
+}
+
+.gallery-cell {
+  width: 28%;
+  height: 200px;
+  margin-right: 10px;
+  background-image: url("https://i.pinimg.com/originals/26/39/f3/2639f3e23f0c9a7993ad10a293cc794f.png");
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell.is-selected {
+  background-image: url("https://i.pinimg.com/originals/26/39/f3/2639f3e23f0c9a7993ad10a293cc794f.png");
+
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  line-height: 200px;
+  font-size: 80px;
+}
+
+
+.box{
+  margin-left: 15%;
+  margin-right:13%;
+  margin-top: 50%;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+a:link {
+  
+  text-decoration: none;
+}
+.box2{
+  margin-left: 15%;
+  margin-right:13%;
+  margin-top: 50%;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+.box3{
+  margin-left: 50%;
+  margin-right:13%;
+  margin-top: 50%;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
+
+.logo img{
+  float:left;
+  width:62px;
+  height:auto;
+}
+
+.swipe-slide{
+  width:250px !important;
+}
+.b{
+  float:right;
+}
+
+.slider-box{
+  padding:5px 30px;
+  margin:20px;
+  height:350px;
+  width:250px;
+  position:relative;
+  background-color:#ffffff;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  border:1px solid rgba(187,187,187,1.000);
+}
+.slider-box1{
+  margin:20px;
+  height:350px;
+  width:250px;
+  position:relative;
+  background-color:#ffffff;
+  border-radius:5px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  border:1px solid rgba(187,187,187,1.000);
+}
+
+.slider-box a{
+  text-decoration:none;
+  text-align:center;
+}
+
+.img-box{
+  height:170px;
+}
+.img-box img{
+  height:auto;
+  max-width:100%;
+  max-height:100%;
+}
+
+.time{
+  position:absolute;
+  top:0px;
+  right:20px;
+  color:#432616;
+}
+.detail{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  font-size:13px;
+  line-height:35px;
+}
+
+.price{
+  color:#ffffff;
+  background-color:#ff555b;
+  line-height:20px;
+}
+
+.cart{
+  position: absolute;
+  bottom: 0px;
+  height:45px;
+  background-color:#432616;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.cart a{
+  color:#ffffff;
+}
+
+.slider-box:hover{
+  box-shadow: 2px 2px 12px rgba(47,47,47,0.40);
+}
+
+.slider-box:hover .img-box img{
+  transform:scale(1.07);
+  transition:all ease 0.3;
+}
+.cart:hover{
+  transform:scale(1.1);
+  background-color:#432616;
+  box-shadow:2px 2px 12px rgba(47,47,47,0.40);
+  transition:all ease 0;
+}
+
